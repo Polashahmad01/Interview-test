@@ -1,0 +1,120 @@
+.schedules {
+  background: url("../image/mountain-1.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+.schedule__links {
+  display: flex;
+  background-color: #404f6b;
+  padding-left: 15.45rem;
+  list-style: none;
+}
+
+.schedule__linkOne {
+  padding: 1rem;
+  background-color: #b0b4bf;
+  margin-right: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.schedule__linkOne:hover {
+  background-color: #404f6b;
+}
+
+.schedule__linkOne:hover > a {
+  color: #b0b4bf;
+  border-color: #b0b4bf;
+}
+
+.schedule__linkOne > a {
+  text-transform: uppercase;
+  font-weight: 900;
+  padding-bottom: 0.2rem;
+  color: #404f6b;
+  border-bottom: 2px solid #404f6b;
+  transition: all 0.2s ease-in-out;
+}
+
+.schedule__linkTwo {
+  padding: 1rem;
+  background-color: #404f6b;
+  transition: all 0.2s ease-in-out;
+}
+
+.schedule__linkTwo:hover {
+  background-color: #b0b4bf;
+}
+
+.schedule__linkTwo:hover a {
+  color: #404f6b;
+}
+
+.schedule__linkTwo > a {
+  text-transform: uppercase;
+  font-weight: 900;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid #404f6b;
+  transition: all 0.2s ease-in-out;
+  color: #b0b4bf;
+}
+
+.schedule {
+  background-color: #eff3f6;
+  width: 25rem;
+  margin-left: 15.45rem;
+  margin-top: 10rem;
+  padding: 1rem 2.5rem;
+}
+
+.schedule > h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #404f6b;
+  padding: 1rem 0;
+}
+
+.schedule__date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.schedule__date > ul {
+  list-style: none;
+}
+
+.schedule__date > ul > li {
+  padding: 0.4rem 0;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+.schedule__location {
+  display: flex;
+  flex-direction: column;
+}
+
+.schedule__location > ul {
+  list-style: none;
+}
+
+.schedule__location > ul > li {
+  padding: 0.4rem 0;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+/* Mobile Version */
+@media (max-width: 767px) {
+  .schedules {
+    background: url("../image/mountain-1.jpg") no-repeat center center/cover;
+  }
+  .schedule__links {
+    padding-left: 1rem;
+  }
+
+  .schedule {
+    margin-left: 1rem;
+    width: fit-content;
+  }
+}

@@ -1,0 +1,184 @@
+.history {
+  color: white;
+}
+
+.history__container {
+  background: url("../image/Showcase-2.jpg");
+  background-repeat: no-repeat;
+  background-position: top -3.12rem right -24rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.history__top {
+  padding: 1rem 15.45rem;
+}
+
+.history__heading {
+  font-size: 12rem;
+  color: #24334d;
+  position: relative;
+}
+
+.dot {
+  height: 1rem;
+  width: 1rem;
+}
+
+.history__subheading {
+  color: #4d4d4d;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  position: absolute;
+  bottom: 4rem;
+  padding-bottom: 0.4rem;
+  left: 14rem;
+}
+
+.history__description {
+  font-size: 0.9rem;
+  padding-left: 6rem;
+  font-weight: 300;
+  color: black;
+}
+
+.history__bottomCarousel {
+  margin-top: 20rem;
+  background-color: #46566e;
+  opacity: 0.9;
+  padding: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.history__bottomCarouselImages {
+  display: flex;
+  justify-content: center;
+}
+
+.history__bottomCarouselImage {
+  object-fit: contain;
+  width: 220px !important;
+  padding: 0 0.5rem;
+}
+
+.history__bottomCarouselDot {
+  display: flex;
+  padding-top: 1rem;
+}
+
+.history__bottomCarouselDots {
+  height: 0.5rem;
+  width: 0.5rem;
+  background-color: #9fa8b6;
+  border-radius: 100%;
+  margin: 0 0.4rem;
+}
+
+.history__bottomCarouselDots:first-child {
+  background-color: white;
+}
+
+.history__bottom__text {
+  padding-left: 15.45rem;
+  padding-right: 15.45rem;
+  padding-top: 0;
+  padding-bottom: 2.5rem;
+  background-color: white;
+  color: black;
+}
+
+.history__bottomHeading {
+  font-size: 12rem;
+  color: #9ea7b5;
+  position: relative;
+}
+
+.history__bottomSubHeading {
+  color: #4d4d4d;
+  text-transform: uppercase;
+  font-size: 2.3rem;
+  position: absolute;
+  bottom: 4rem;
+  padding-bottom: 0.4rem;
+  left: 14rem;
+}
+
+.history__bottomDescription {
+  font-size: 0.9rem;
+  padding-left: 6rem;
+  font-weight: 300;
+  color: black;
+}
+
+/* Mobile Version */
+@media (max-width: 767px) {
+  .history__container {
+    background: url("../image/Showcase-2.jpg") no-repeat center center/cover;
+  }
+
+  .history__top {
+    padding: 1rem 1rem;
+  }
+
+  .history__heading {
+    font-size: 3rem;
+  }
+
+  .history__subheading {
+    left: 3.5rem;
+    bottom: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .history__description {
+    padding-left: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+  }
+
+  .history__bottomCarousel {
+    margin-top: 5rem;
+  }
+
+  .history__bottomCarouselImages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .history__bottomCarouselImage {
+    width: 150px !important;
+    padding: 0.5rem;
+  }
+
+  .history__bottom__text {
+    padding: 1rem;
+  }
+
+  .history__bottomHeading {
+    font-size: 3rem;
+  }
+
+  .history__bottomSubHeading {
+    font-size: 1rem;
+    left: 3.5rem;
+    bottom: 0.8rem;
+  }
+
+  .history__bottomDescription {
+    padding-left: 1.5rem;
+  }
+}
+
+/* iPad */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .history__bottomCarouselImage {
+    width: 150px !important;
+    padding: 0.5rem;
+  }
+}

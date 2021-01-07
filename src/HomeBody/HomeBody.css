@@ -1,0 +1,41 @@
+.homeBody {
+  object-fit: cover;
+  background: url("../image/Showcase.jpg");
+  background-repeat: no-repeat;
+  background-position: top -3.12rem right -24rem;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.homeBody__text {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeBody__text > h1 {
+  text-transform: uppercase;
+  font-size: 6rem;
+  line-height: 0.9;
+  text-align: center;
+  color: #4d4d4d;
+}
+
+.homeBody__textOne {
+  display: block;
+  color: #404f6b;
+}
+
+/* Mobile Version */
+@media (max-width: 767px) {
+  .homeBody {
+    background-image: url("../image/Showcase.jpg") no-repeat center center/cover;
+    overflow-x: hidden;
+  }
+
+  .homeBody__text > h1 {
+    font-size: 3rem;
+  }
+}

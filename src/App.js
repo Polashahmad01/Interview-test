@@ -16,7 +16,10 @@ const App = () => {
     const scrollY = window.scrollY;
     const scrollTop = myRef.current.scrollTop;
     setScrollTop(scrollTop);
+
+    console.log(scrollY);
   }
+
 
   return (
     <div ref={myRef} onScroll={onScroll} className="app">
